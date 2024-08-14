@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#buttonLogin {
+    transition: 0.5s all ease;
+}
+
+#buttonLogin:hover {
+    scale: 1.2;
+}
+
+#carouselExampleAutoplaying {
+    max-width: 900px;
+    max-height: 700px;
+    margin: auto;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+section {
+    margin: 50px 0;
+}
+section#footer {
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 0;
+}
+
+section#footer h1 {
+    font-size: 24px;
+}
+
+section#footer li::before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    padding: 0 5px 0 0;
+    color: #CF4240;
+}
+
+section#convenios .carousel-inner img {
+    max-height: 150px;
+    object-fit: contain;
+}
